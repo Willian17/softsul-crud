@@ -4,6 +4,20 @@
 
 ## Backend - `cd server`
 ### Project setup	
+#### criar o arquivo .env na raiz da pasta(server)
+```	
+module.exports = {
+    authSecret: '',
+     db: {
+        host : '',
+        port: ,
+        database: '',
+        user: '',
+        password: ''
+    }
+}
+```	
+### baixar dependencias
 ```	
 npm install	
 ```	
